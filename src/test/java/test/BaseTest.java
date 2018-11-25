@@ -28,6 +28,7 @@ public class BaseTest {
         searchPage = PageFactory.initElements(webDriver, SearchPage.class);
     }
 
+    //TEST
     @AfterMethod
     public void afterMethod(){
         webDriver.quit();
